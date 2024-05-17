@@ -11,9 +11,12 @@
     "node": ">=20.0.0",
     "yarn": ">=1.22.0"
   },
-  "scripts": {},
+  "scripts": {
+    "build": "node ./build.js"
+  },
   "dependencies": {
-    "esbuild": "^0.21.3"
+    "esbuild": "^0.21.3",
+    "esbuild-gas-plugin": "^0.8.0"
   },
   "devDependencies": {}
 }
