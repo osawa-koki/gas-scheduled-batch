@@ -12,6 +12,8 @@
     "yarn": ">=1.22.0"
   },
   "scripts": {},
-  "dependencies": {},
+  "dependencies": {
+    "esbuild": "^0.21.3"
+  },
   "devDependencies": {}
 }
