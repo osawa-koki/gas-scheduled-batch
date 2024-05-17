@@ -1,0 +1,24 @@
+{
+  "name": "gas-scheduled-batch",
+  "version": "1.0.0",
+  "description": "🧃🧃🧃 GASを定期実行してみる！",
+  "main": "./src/index.ts",
+  "repository": "https://github.com/osawa-koki/gas-scheduled-batch.git",
+  "author": "osawa-koki <koki@osawa.dev>",
+  "license": "Apache-2.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.0.0",
+    "yarn": ">=1.22.0"
+  },
+  "scripts": {
+    "build": "node ./build.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.21.3",
+    "esbuild-gas-plugin": "^0.8.0"
+  },
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.83"
+  }
+}
