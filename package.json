@@ -18,5 +18,7 @@
     "esbuild": "^0.21.3",
     "esbuild-gas-plugin": "^0.8.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.83"
+  }
 }
